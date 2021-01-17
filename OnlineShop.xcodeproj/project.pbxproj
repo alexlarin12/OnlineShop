@@ -102,13 +102,10 @@
 		433FC71425B4BA0800F6CFFB /* OnlineShop */ = {
 			isa = PBXGroup;
 			children = (
-				433FC71525B4BA0800F6CFFB /* AppDelegate.swift */,
-				433FC71725B4BA0800F6CFFB /* SceneDelegate.swift */,
-				433FC71925B4BA0800F6CFFB /* ViewController.swift */,
-				433FC71B25B4BA0800F6CFFB /* Main.storyboard */,
-				433FC71E25B4BA0800F6CFFB /* Assets.xcassets */,
-				433FC72025B4BA0800F6CFFB /* LaunchScreen.storyboard */,
-				433FC72325B4BA0800F6CFFB /* Info.plist */,
+				433FC75325B4C73200F6CFFB /* App */,
+				433FC75425B4C81900F6CFFB /* Resources */,
+				433FC75525B4C83100F6CFFB /* Core */,
+				433FC75625B4C84A00F6CFFB /* Environments */,
 			);
 			path = OnlineShop;
 			sourceTree = "<group>";
@@ -129,6 +126,73 @@
 				433FC73925B4BA0900F6CFFB /* Info.plist */,
 			);
 			path = OnlineShopUITests;
+			sourceTree = "<group>";
+		};
+		433FC75325B4C73200F6CFFB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				433FC71525B4BA0800F6CFFB /* AppDelegate.swift */,
+				433FC71725B4BA0800F6CFFB /* SceneDelegate.swift */,
+				433FC75A25B4C8E100F6CFFB /* BusinessLogic */,
+				433FC75925B4C8CE00F6CFFB /* Assembly */,
+				433FC75825B4C8BF00F6CFFB /* Flows */,
+				433FC75725B4C8A100F6CFFB /* Entity */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		433FC75425B4C81900F6CFFB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				433FC71E25B4BA0800F6CFFB /* Assets.xcassets */,
+				433FC72025B4BA0800F6CFFB /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		433FC75525B4C83100F6CFFB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		433FC75625B4C84A00F6CFFB /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				433FC72325B4BA0800F6CFFB /* Info.plist */,
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		433FC75725B4C8A100F6CFFB /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		433FC75825B4C8BF00F6CFFB /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				433FC71925B4BA0800F6CFFB /* ViewController.swift */,
+				433FC71B25B4BA0800F6CFFB /* Main.storyboard */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		433FC75925B4C8CE00F6CFFB /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		433FC75A25B4C8E100F6CFFB /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
